@@ -1,0 +1,28 @@
+{
+  "name": "career-craft-backend",
+  "version": "1.0.0",
+  "description": "This is a This project aims to develop a **full-stack MERN + AI-based Career & Resume Analyzer Platform**",
+  "main": "using AI insights. The system uses AI models to analyze resumes, extract key skills, compare them",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Arpit and Sujal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.9",
+    "pdf-parse": "^2.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
